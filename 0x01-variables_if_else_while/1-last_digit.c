@@ -3,7 +3,8 @@
 #include <time.h>
 /**
  * main - finds the last int in a random number
- * Return: Always(0)
+ *
+ * Return: Always(0) Success
  */
 int main(void)
 {
@@ -14,15 +15,15 @@ int main(void)
 	printf("Last digit of %d is %d and is ", n, lastdigit);
 	if (lastdigit > 5)
 	{
-		printf("grater than 5\n");
+		printf("ans is greater than 5\n");
 	}
 	else if (lastdigit  == 0)
 	{
-		printf("0\n");
+		printf("and is 0\n");
 	}
 	else if (lastdigit < 6 && lastdigit != 0)
 	{
-		printf("less than 6 and not 0\n");
+		printf("amd is less than 6 and not 0\n");
 	}
 	return (0);
 }
