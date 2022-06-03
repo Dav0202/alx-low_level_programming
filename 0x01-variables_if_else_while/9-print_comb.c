@@ -11,11 +11,9 @@ int main(void)
 	{
 		if (i == 58)
 			continue;
-		{
 		putchar(i);
 		putchar(',');
 		putchar(' ');
-		}
 	}
 	putchar('\n');
 	return (0);
