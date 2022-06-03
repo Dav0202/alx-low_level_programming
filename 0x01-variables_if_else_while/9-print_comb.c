@@ -9,12 +9,13 @@ int main(void)
 
 	for (i = 48; i < 58; i++)
 	{
-		if (i != 58)
+		if (i == 58)
+			continue;
 		{
 		putchar(i);
 		putchar(',');
 		putchar(' ');
-		}	
+		}
 	}
 	putchar('\n');
 	return (0);
