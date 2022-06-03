@@ -12,8 +12,6 @@ int main(void)
 		putchar(i);
 		putchar(',');
 		putchar(' ');
-		if (i == 58)
-			break;
 	}
 	putchar('\n');
 	return (0);
