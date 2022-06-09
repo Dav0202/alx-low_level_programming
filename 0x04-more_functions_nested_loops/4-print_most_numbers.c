@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_most_number - print most numbers
+ * print_most_numbers - print most numbers
  * Description: prints the number except 2 numbers
  * Returns : always returns zero
  */
