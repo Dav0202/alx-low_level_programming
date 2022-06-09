@@ -4,7 +4,6 @@
  * Description: prints list of numbers 10 times
  * Return: Always return 0
  */
-
 void more_numbers(void)
 {
 	int n, i;
