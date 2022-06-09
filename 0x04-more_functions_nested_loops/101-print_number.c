@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * print_number - print number
- * @n: input value
- * Description:  prints an integer
+ * @n: integer
+ * Description: prints an integer
  * Return: Always return 0
  */
 void print_number(int n)
@@ -18,11 +18,7 @@ void print_number(int n)
 		_putchar(((n / 10) * -1) + '0');
 		_putchar(((n % 10)  * -1) + '0');
 	}
-	else if (n == 0)
-	{
-		_putchar(n + '0');
-	}
-	else if ((n > 0) && (n <= 9))
+	else if ((n >= 0) && (n <= 9))
 	{
 		_putchar(n + '0');
 	}
