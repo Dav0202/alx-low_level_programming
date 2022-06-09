@@ -2,7 +2,7 @@
 /**
  * more_numbers - print numbers
  * Description: prints list of numbers 10 times
- * Retuen: Always return 0
+ * Return: Always return 0
  */
 void more_numbers(void)
 {
@@ -22,7 +22,6 @@ void more_numbers(void)
 			}
 		}
 		_putchar('\n');
-
 		i++
 	}
 }
