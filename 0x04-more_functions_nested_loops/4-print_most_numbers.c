@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * prints_most_number - print most numbers
  * Description: prints the number except 2 numbers
