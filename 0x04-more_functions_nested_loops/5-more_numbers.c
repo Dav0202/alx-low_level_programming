@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  * more_numbers - print numbers
- * @i - integer 1
- * @n - integer 2
  * Description: prints list of numbers 10 times
  * Return: Always return 0
  */
