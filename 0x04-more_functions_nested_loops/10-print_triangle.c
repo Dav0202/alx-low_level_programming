@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_triangle - print triangle
- * @size: input size
+ * @size: integer
  * Description: size of triangle depends on input
  * Return: Always (0)
  */
@@ -9,7 +9,7 @@
 void print_triangle(int size)
 {
 	int i, j;
-  
+
 	if (size <= 0)
 	{
 		_putchar('\n');
