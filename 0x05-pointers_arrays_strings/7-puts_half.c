@@ -24,14 +24,14 @@ void puts_half(char *str)
 	if (i % 2 != 0)
 	{
 		n++;
-		for (p = i + n / 2; p < n; p++)   
+		for (p = i + n / 2; p < n; p++)
 		{
 			_putchar(str[p]);
 		}
 	}
 	else
 	{
-		for (p = n / 2; p < n; p++)   
+		for (p = n / 2; p < n; p++)
 		{
 			_putchar(str[p]);
 		}
