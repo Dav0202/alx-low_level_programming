@@ -5,7 +5,6 @@
  * Description: uses pointers
  * Return: Always return 0
  */
- 
 int _strlen(char *s)
 {
 	int i;
