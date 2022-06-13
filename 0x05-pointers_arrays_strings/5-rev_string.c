@@ -8,11 +8,11 @@
 void rev_string(char *s)
 {
 	int n;
-	
+
 	int i;
-	
+
 	char t;
-	
+
 	n = 0;
 
 	while (s[n] != '\0')
