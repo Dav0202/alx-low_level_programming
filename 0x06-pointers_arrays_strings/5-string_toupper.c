@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
  * string_toupper - uppercase strings
