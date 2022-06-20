@@ -7,7 +7,7 @@
  * Description: copies n bytes from memory area src to memory area dest
  * Return: returns a pointer to dest
  */
-char *_memcpy(char *dest, char *src, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 
