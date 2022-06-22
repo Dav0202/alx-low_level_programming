@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * is_prime - find a prime number
+ * prime - find a prime number
  * @i: input parameter
  * @j: input parameter
+ * Description: returns 1 if prime
  * Return: boolean val
  */
 int prime(int i, int j)
@@ -17,10 +18,10 @@ int prime(int i, int j)
 	}
 	return (prime(i, j - 1));
 }
- /**
+/**
   * is_prime_number - printing prime numbers
   * @n: input parameter
-  * Description: returns 1 if the input integer prime number,else return 0
+  * Description: returns 1 if the input integer prime number
   * Return: returns the state of the inout value
   */
 int is_prime_number(int n)
