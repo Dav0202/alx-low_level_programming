@@ -11,9 +11,9 @@
 int main(int argc, char **argv)
 {
 	int sum;
-  
-  UNUSED(argv);
-  
+
+	UNUSED(argv);
+
 	for (sum = 0; sum < argc; sum++)
 	{
 	}
