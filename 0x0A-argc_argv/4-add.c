@@ -22,6 +22,11 @@ int main(int argc, char *argv[])
 			}
 			j += atoi(argv[i]);
 		}
+		if (i < 1)
+		{
+			printf("%d\n", 0);
+			return (1);
+		}
 	}
 	printf("%d\n", j);
 	return (0);
