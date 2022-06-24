@@ -11,14 +11,9 @@ int main(int argc, char *argv[])
 	int i, j;
 
 	j = 0;
-
+	
 	for (i = 0; i < argc; i++)
 	{
-		if (i == 0)
-		{
-			printf("%d\n", 0);
-			return (1);
-		}
 		if (i > 0)
 		{
 			if (atoi(argv[i]) == 0)
