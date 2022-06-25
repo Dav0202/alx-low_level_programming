@@ -12,9 +12,9 @@ int main(int argc, char *argv[])
 
 	j = 0;
 
-	for (i = 0; i < argc; i++)
+	for (i = 0; i <= argc; i++)
 	{
-		if (i > 0)
+		if (i >= 0)
 		{
 			if (atoi(argv[i]) == 0)
 			{
