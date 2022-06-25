@@ -16,17 +16,12 @@ int main(int argc, char *argv[])
 	{
 		if (i > 0)
 		{
-			if (atoi(argv[i]) == 0)
+			if (atoi(argv[i]) == 0 && atoi(argv[i]) < '0' && atoi(argv[i]) > '9')
 			{
 				printf("Error\n");
 				return (1);
 			}
 			j += atoi(argv[i]);
-		}
-		else if (atoi(argv[i]) < '0' || atoi(argv[i]) > '9')
-		{
-			printf("Error\n");
-			return (1);
 		}
 	}
 	printf("%i\n", j);
