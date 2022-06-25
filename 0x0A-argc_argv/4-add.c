@@ -12,22 +12,15 @@ int main(int argc, char *argv[])
 
 	j = 0;
 	
-	if (argc < 2)
+	for (i = 1; i < argc; i++)
 	{
-		printf("%d\n", 0);
-	}
-	else
-	{
-		for (i = 1; i < argc; i++)
+		if (atoi(argv[i]) == 0 || (atoi(argv[i]) > 9 || atoi(argv[i]) < 0))
 		{
-			if (atoi(argv[i]) == 0)
-			{
-				printf("Error\n");
-				return (1);
-			}
-			j += atoi(argv[i]);
+			printf("Error\n");
+			return (1);
 		}
-		printf("%i\n", j);
+		j += atoi(argv[i]);
 	}
+	printf("%i\n", j);
 	return (0);
 }
