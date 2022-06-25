@@ -12,19 +12,14 @@ int main(int argc, char *argv[])
 
 	j = 0;
 
-	if (argc > 1)
+	for (i = 1; i < argc; i++)
 	{
-		for (i = 1; i < argc; i++)
+		if (atoi(argv[i]) == 0)
 		{
-			if (atoi(argv[i]) == 0)
-			{
-				return (printf("Error\n"), 1);
-			}
-			j += atoi(argv[i]);
+			return (printf("Error\n"), 1);
 		}
-		printf("%i\n", j);
-		return (0);
+		j += atoi(argv[i]);
 	}
-	printf("%i\n", 0);
-	return (1);
+	printf("%i\n", j);
+	return (0);
 }
