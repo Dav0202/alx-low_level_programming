@@ -6,20 +6,30 @@
  * @str: input string
  * Return: returns a pointer to a new space in memory
  */
-
-char *str_concat(char *s1, char *s2);
+char *_strdup(char *str)
 {
-  unsigned int i;
+  int i;
+  
   int n;
-  char *ar
- 
-  ar = (char *) malloc(n * sizeof(char));
-  if (ar == NULL || char == 0)
+  
+  *char ar;
+  
+  n = 0;
+  
+  ar = (char *) malloc(sizeof(char) * (n + 1));
+   
+  if (ar == NULL || str == 0)
   {
-        return (NULL);
+    return (NULL);
   }
   else
   {
-    for (i = 0; i < 
+    for (i = 0; str[i]; i++)
+	  {
+		  arr[i] = str[i];
+		  n++;
+	  }
+    ar[n] = '/0';
+    return (ar)
   }
 }
