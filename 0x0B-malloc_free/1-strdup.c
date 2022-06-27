@@ -16,6 +16,10 @@ char *_strdup(char *str)
 
 	n = 0;
 
+	if (ar == NULL || str == NULL)
+	{
+		return (NULL);
+	}
 	while (str[n] != '\0')
 	{
 		n++;
@@ -24,10 +28,6 @@ char *_strdup(char *str)
 
 	ar = malloc(sizeof(*str) * n);
 
-	if (ar == NULL || str == NULL)
-	{
-		return (NULL);
-	}
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		ar[i] = str[i];
