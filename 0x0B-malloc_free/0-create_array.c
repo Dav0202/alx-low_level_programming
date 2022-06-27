@@ -12,7 +12,7 @@
 {
  unsigned int i;
  
- char *arr
+ char *ar
  
  ar = (char *) malloc(size);
  
