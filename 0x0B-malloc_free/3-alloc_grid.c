@@ -24,16 +24,15 @@ int **alloc_grid(int width, int height)
 		ar[i] = calloc(width, sizeof(int));
 		if (ar[i] == NULL)
 		{
-			while (--i >= 0)
+			while (--i == 0)
 			{
 				free(ar[i]);
 			}
-			free(ar);
 		}
 	}
 	if (ar == NULL)
 	{
-		return (NULL);
+		free(ar);
 	}
 	return (ar);
 }
