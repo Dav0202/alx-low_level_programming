@@ -17,11 +17,11 @@ int **alloc_grid(int width, int height)
 	{
 		return (NULL);
 	}
-	ar = (int **) malloc(width * sizeof(int *));
+	ar = (int **) calloc(width * sizeof(int *));
 
 	for (i = 0; i < width; i++)
 	{
-		ar[i] = malloc(height * sizeof(int));
+		ar[i] = calloc(height * sizeof(int));
 	}
 	if (ar == NULL)
 	{
