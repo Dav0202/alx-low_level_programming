@@ -38,10 +38,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		ar[i] = s1[i];
 	}
-	for (j = 0; s2[j] != '\0'; j++)
+	for (j = 0; s2[j] != '\0' && j < n; j++,i++)
 	{
-		ar[j + t] = s2[j];
+		ar[i] = s2[j];
 	}
-	ar[t + n + 1] = '\0';
+	ar[i] = '\0';
+	printf("%d",i);
 	return (ar);
 }
