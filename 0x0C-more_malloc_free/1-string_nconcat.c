@@ -42,6 +42,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		ar[j + i] = s2[j];
 	}
-	ar[t + i + 1] = '\0';
+	ar[t + n + 1] = '\0';
 	return (ar);
 }
