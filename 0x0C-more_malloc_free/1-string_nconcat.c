@@ -17,7 +17,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s1 == NULL)
 	{
 		t1 = 0;
-		s1 = "";
 	}
 	for (t1 = 0; s1[t1]; ++t1)
 	{
@@ -25,7 +24,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 	{
 		t2 = 0;
-		s2 = "";
 	}
 	for (t2 = 0; s2[t2]; ++t2)
 	{
