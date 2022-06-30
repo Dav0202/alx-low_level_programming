@@ -10,43 +10,39 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *ar;
+        char *ar;
 
-	unsigned int t1, t2, i;
+        unsigned int t1, t2, i;
 
-	if (s1 == NULL)
-	{
-		t1 = 0;
-	}
-	for (t1 = 0; s1[t1]; ++t1)
-	{
-	}
-	if (s2 == NULL)
-	{
-		t2 = 0;
-	}
-	for (t2 = 0; s2[t2]; ++t2)
-	{
-	}
-	if (t2 > n)
-	{
-		t2 = n;
-	}
-	ar = malloc((t1 + t2 + 1) * sizeof(char));
-
-	if (ar == NULL)
-	{
-		return (NULL);
-	}
-	for (i = 0; i < t1; i++)
-	{
-		ar[i] = s1[i];
-	}
-	for (i = 0; i < t2; i++)
-	{
-		ar[t1 + i] = s2[i];
-	}
-	ar[t1 + t2] = '\0';
-	printf("%d", t1+t2);
-	return (ar);
+        if (s1 == NULL)
+		s1 = "";
+                t1 = 0;
+        for (t1 = 0; s1[t1]; ++t1)
+        {
+        }
+        if (s2 == NULL)
+		s2 = "";
+                t2 = 0;
+        for (t2 = 0; s2[t2]; ++t2)
+        {
+        }
+        if (t2 > n)
+        {
+                t2 = n;
+        }
+        ar = malloc((t1 + t2 + 1) * sizeof(char));
+        if (ar == NULL)
+        {
+                return (NULL);
+        }
+        for (i = 0; i < t1; i++)
+        {
+                ar[i] = s1[i];
+        }
+        for (i = 0; i < t2; i++)
+        {
+                ar[t1 + i] = s2[i];
+        }
+        ar[t1 + t2] = '\0';
+        return (ar);
 }
