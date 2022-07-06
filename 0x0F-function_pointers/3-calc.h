@@ -1,8 +1,9 @@
 #ifndef CALC
 #define CALC
+
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
 /**
  * op_add - adds two numbers
  * @a:num1
