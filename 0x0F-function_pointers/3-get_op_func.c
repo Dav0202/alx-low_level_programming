@@ -1,7 +1,7 @@
 #include "3-calc.h"
 /**
  * get_op_func - select correct function
- * @s: input params
+ * @s: input parameter
  * Return: Always return 0
  */
 int (*get_op_func(char *s))(int, int)
@@ -12,7 +12,6 @@ int (*get_op_func(char *s))(int, int)
 		{"*", op_mul},
 		{"/", op_div},
 		{"%", op_mod},
-		{NULL, NULL}
 	};
 	int i = 0;
 

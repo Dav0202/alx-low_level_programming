@@ -7,7 +7,7 @@
  */
 int main(int argc, char *argv[])
 {
-	register int a, b;
+	int a, b;
 	int (*ptr)(int, int);
 
 	if (argc != 4)
