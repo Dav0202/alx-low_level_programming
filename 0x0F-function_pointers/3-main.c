@@ -10,11 +10,14 @@ int main(int argc, char *argv[])
 	int a, b;
 
 	int (*ptr)(int, int);
+
 	if (argc != 4)
 	{
 		printf("Error\n"), exit(98);
-	}
+	
+		
 	ptr = get_op_func(argv[2]);
+		
 	if (!ptr)
 	{
 		printf("Error\n"), exit(99);
