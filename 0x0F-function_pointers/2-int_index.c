@@ -1,4 +1,4 @@
-#include "function_pointers.h"
+#include "main.h"
 /**
  * int_index - searches for an integer
  * @array: first parameter
