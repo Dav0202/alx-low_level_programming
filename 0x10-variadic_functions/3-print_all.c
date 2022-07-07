@@ -69,7 +69,9 @@ void print_string(va_list argptr)
 void print_all(const char * const format, ...)
 {
 	va_list arguments;
+
 	int index, arg_len;
+
 	char *separator = "";
 
 	prints_t fmt_list[] = {
@@ -80,6 +82,7 @@ void print_all(const char * const format, ...)
 	};
 	va_start(arguments, format);
 	index = 0;
+
 	while (format && (format[index]))
 	{
 		arg_len = 0;
