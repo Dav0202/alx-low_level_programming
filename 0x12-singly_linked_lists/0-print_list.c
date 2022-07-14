@@ -7,9 +7,9 @@
  */
 print_list(const list_t *head)
 {
-  int len = 0;
+	int len = 0;
 
-  list_t *temp = head;
+	list_t *temp = head;
 
 	while (temp != NULL)
 	{
