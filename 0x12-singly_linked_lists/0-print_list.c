@@ -5,7 +5,7 @@
  * @head: The list_t list.
  * Return: The number of nodes in h.
  */
-print_list(const list_t *head)
+size_t print_list(const list_t *head)
 {
 	int len = 0;
 
