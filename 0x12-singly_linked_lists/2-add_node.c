@@ -1,6 +1,5 @@
-#include <stdio.h>
-#include <string.h>
 #include "lists.h"
+#include <string.h>
 /**
  * _strlen - counts the lenght of a string
  * @str: string to be counted
