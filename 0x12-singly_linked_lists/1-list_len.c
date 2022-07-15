@@ -4,15 +4,13 @@
  * @head: first parameter
  * Return: number of elements
  */
-size_t list_len(const list_t *head)
+size_t list_len(const list_t *h)
 {
-	list_t *temp = head;
-
 	unsigned int len = 0;
 
-	while (temp != NULL)
+	while (h != NULL)
 	{
-		temp = temp->next;
+		h = h->next;
 		len++;
 	}
 	return (len);
