@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * list_len - prints number of nodes
- * @head: first parameter
+ * @h: first parameter
  * Return: number of elements
  */
 size_t list_len(const list_t *h)
