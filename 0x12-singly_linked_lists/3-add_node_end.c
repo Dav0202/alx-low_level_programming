@@ -25,7 +25,6 @@ int _strlen(const char *str)
 list_t *add_node_end(list_t **head, const char *str)
 {
 	char *temp;
-	int len;
 	list_t *new, *last;
 
 	new = malloc(sizeof(list_t));
