@@ -7,11 +7,11 @@
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-	int count;
+	uint count;
 	listint_t *currentnode;
 
 	count = 0;
-	currentnode = *head;
+	currentnode = head;
 
 	if (!(currentnode))
 	{
