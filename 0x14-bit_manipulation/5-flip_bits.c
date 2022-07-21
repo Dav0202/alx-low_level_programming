@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * flip_bits - flips binary numbers
  * @n: first parameter
