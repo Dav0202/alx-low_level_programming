@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "main.h"
+#include "lists.h"
 /**
- * main - check the code for Holberton School students.
+ * lists - check the code for Holberton School students.
  * Return: Always EXIT_SUCCESS.
  */
 int main(void)
