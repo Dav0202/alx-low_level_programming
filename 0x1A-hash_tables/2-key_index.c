@@ -1,4 +1,4 @@
-#include "main.h"
+#include "hash_tables.h"
 /**
  * key_index - gives you the index of a key
  * @key: key
